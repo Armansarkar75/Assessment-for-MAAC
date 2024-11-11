@@ -31,7 +31,7 @@ public class UpdateProfile {
 		
 		WebElement EL = driver.findElement(By.xpath("//div[@class='profile-view-btn nav-item dropdown']//a[@id='basic-nav-dropdown']"));
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("EL"))); 
+		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("EL"))); 
 		
 		EL.click();
 		// Can to be Automated because selenium webdriver unable to locate the element.
