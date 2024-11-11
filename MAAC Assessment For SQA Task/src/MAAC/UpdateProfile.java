@@ -34,7 +34,7 @@ public class UpdateProfile {
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("EL"))); 
 		
 		EL.click();
-		// Can to be Automated because selenium webdriver unable to locate the element.
+		// Can to be Automated because selenium webdriver unable to locate the element..
 		
 	}
 
